@@ -1,0 +1,84 @@
+.topbarSelect > div:hover::before {
+  border: none !important;
+}
+
+.topbarSelect > div::before {
+  border: none !important;
+}
+
+.welcome-text {
+  color: rgb(5 100 200) !important;
+  margin: 0px;
+  font-size: 12px;
+  position: absolute;
+  left: 25%;
+  transform: translate(-100%, 0px);
+}
+
+.top-bar-icon-wrapper button {
+  padding: 10px;
+}
+
+.top-bar-icon-wrapper button:nth-child(3) {
+  padding: 0;
+}
+
+.loading-shading-mui {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.loading-icon-mui {
+  position: absolute;
+  font-size: 20px;
+  top: calc(50% - 10px);
+  left: calc(50% - 10px);
+}
+
+/* Css For Handling topbar to sideNav show or hide for btn as well */
+
+.topbar-toggle-btn {
+  display: none !important;
+}
+
+.topbar-img {
+  display: initial !important;
+}
+
+.module-mount-container {
+  margin-left: 45px;
+}
+
+.topbar_menu {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .topbar-toggle-btn {
+    display: initial !important;
+  }
+  .topbar-img {
+    display: none !important;
+  }
+  .module-mount-container {
+    margin-left: 0px;
+  }
+  .topbar_menu {
+    display: block;
+  }
+  .hide_menu_topbar {
+    display: none;
+  }
+}
+
+#age-native-simple ~ svg {
+  color: black;
+}
+
+#age-native-simple {
+  padding-right: 9px;
+}

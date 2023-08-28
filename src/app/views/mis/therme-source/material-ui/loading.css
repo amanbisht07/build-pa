@@ -1,0 +1,72 @@
+.loading-shading-mui {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: rgba(255, 255, 255, .3);
+}
+
+.loading-icon-mui {
+    position: absolute;
+    font-size: 20px;
+    top: calc(50% - 10px);
+    left: calc(50% - 10px);
+}
+
+.loading-shading-mui {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: rgba(255, 255, 255, .3);
+}
+
+.loading-icon-mui {
+    position: absolute;
+    font-size: 20px;
+    top: calc(50% - 10px);
+    left: calc(50% - 10px);
+}
+
+/* .chartBox{
+    display: flex;
+} */
+
+.d-flex{
+    display: flex;
+}
+
+.chartBox > div{
+    width: 90% !important;
+}
+
+.chartBox .echarts-for-react {
+    width: 100% !important;
+}
+
+@media (max-width: 767px){
+    
+    .chartBox{
+        flex-wrap: wrap;
+    }
+    .chartBox > div{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 500px){
+    .chartBox > div{
+        height: 425px !important;
+    }
+}
+
+@media (max-width: 350px){
+    .chartBox > div{
+        height: 310px !important;
+    }
+}
+

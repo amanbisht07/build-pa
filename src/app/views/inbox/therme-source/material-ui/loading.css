@@ -1,0 +1,1013 @@
+.loading-shading-mui {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(134, 133, 133, 0.3);
+  z-index: 80;
+}
+
+.loading-light-mui {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 80;
+}
+
+#add_cover_letter {
+  height: 2.3rem !important;
+}
+
+.Dialog_content {
+  background-color: #d1dce0;
+  margin: 10px !important;
+}
+
+.files {
+  font-size: 1rem;
+  margin: 10px;
+}
+
+.close_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select_text {
+  background-color: rgb(245, 89, 89);
+  max-width: 100% !important;
+  padding: 2px;
+  padding-left: 10px;
+  color: white;
+}
+
+.cloud_table {
+  display: grid;
+  max-width: 800px;
+  position: relative;
+  top: 1rem;
+}
+
+#cloud_dialog {
+  height: 100vh !important;
+}
+
+.typo {
+  width: 170px;
+  text-align: center;
+  margin: 10px;
+}
+
+.card_container {
+  border: 1px solid gray;
+  max-width: 200px;
+  height: 300px;
+  background-color: white;
+}
+
+.loading-icon-mui {
+  position: absolute;
+  font-size: 20px;
+  top: calc(50% - 10px);
+  left: calc(50% - 10px);
+}
+
+.inbox-table {
+  width: 100%;
+}
+
+.cabinate_container .e-grid .e-gridheader {
+  border-radius: 0;
+}
+
+.e-grid .e-gridheader {
+  border-radius: 15px 15px 0 0;
+}
+
+.inbox-table .MuiTable-root .MuiTableBody-root {
+  transition: all 0.3s ease;
+}
+
+.inbox-table .MuiTable-root .MuiTableHead-root .MuiTableRow-head:last-child {
+  transition: all 0.3s ease-in-out;
+}
+
+/* .inbox-table .MuiTable-root .MuiTableHead-root .MuiTableRow-head:last-child{
+    transform: translate(0px, -100%);
+    z-index: 0;
+    visibility: collapse;
+} */
+
+.inbox-table
+  .MuiTable-root
+  .MuiTableHead-root:hover
+  .MuiTableRow-head:last-child {
+  transform: translate(0px, 0px);
+  z-index: 1;
+  visibility: visible;
+}
+
+.inbox-table .MuiTable-root .MuiTableRow-root:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.inbox-table {
+  position: relative;
+}
+
+.table-action-btn {
+  position: absolute;
+  right: 248px;
+  padding: 0px 5px;
+  border: none;
+  padding-top: 2px;
+  border-bottom: none !important;
+}
+
+.inbox-table .MuiTable-root .MuiTableRow-root:hover .table-action-btn > button {
+  display: inline-flex;
+  padding: 3px;
+  margin-top: 0px !important;
+}
+
+.table-action-btn span {
+  height: 1.5em;
+}
+
+/* material ui table changes  start*/
+
+.inbox-table .MuiDataGrid-viewport {
+  overflow: visible;
+}
+
+.inbox-table .MuiDataGrid-cell:focus {
+  outline: none !important;
+}
+
+.inbox-table .MuiDataGrid-row {
+  cursor: pointer;
+}
+
+.inbox-table .MuiTable-root .MuiTableBody-root {
+  transition: all 0.3s ease;
+}
+
+.inbox-table .MuiDataGrid-windowContainer :not(.MuiDataGrid-cellCheckbox) {
+  height: auto !important;
+}
+
+.inbox-table .MuiDataGrid-root .MuiDataGrid-cell {
+  white-space: initial;
+}
+.MuiTable-root {
+  border: none !important;
+}
+
+/* .inbox-table .MuiDataGrid-columnHeaderWrapper .MuiDataGrid-columnHeader:last-child{
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+} */
+
+/* .inbox-table .MuiDataGrid-columnHeaderWrapper .MuiDataGrid-columnHeader:last-child{
+    transform: translate(0px, -100%);
+    z-index: 0;
+    visibility: collapse;
+} */
+
+/* .inbox-table .MuiDataGrid-columnHeaderWrapper:hover .MuiDataGrid-columnHeader:last-child{
+    transform: translate(0px, 0px);
+    z-index: 1;
+    visibility: visible;
+} */
+
+.inbox-table .MuiDataGrid-row:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.inbox-table .MuiDataGrid-row:hover .table-action-btn > button {
+  display: inline-flex;
+  padding: 3px;
+  margin-top: 0px !important;
+}
+
+/* material ui table changes  end*/
+
+.send-button-Wrapper {
+  /* position: absolute;
+    bottom: 15px;
+    left: 15px; */
+  margin-left: 16px;
+  margin-bottom: 16px;
+}
+
+.send-button-Wrapper .MuiIcon-root {
+  display: flex;
+  justify-content: inherit;
+  align-items: inherit;
+}
+
+::-webkit-scrollbar {
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #787474;
+}
+
+@media (max-width: 768px) {
+  #webviewer-1 {
+    height: inherit !important;
+  }
+}
+
+.split-btn-custom {
+  display: block !important;
+  margin-top: 15px !important;
+  text-align: center !important;
+  margin-left: -30px !important;
+  border-radius: 30px !important;
+  padding: 0 !important;
+  width: 65px !important;
+}
+
+.split-btn-custom:focus {
+  color: #fff !important;
+  margin-left: -22px !important;
+  transition: all 0.3 ease-in-out !important;
+  box-shadow: rgb(14 30 37 / 62%) 0px 2px 4px 0px,
+    rgb(14 30 37 / 32%) 0px 2px 16px 0px !important;
+}
+
+.split-btn-custom span {
+  padding: 4px 11px !important;
+  padding-right: 18px !important;
+}
+
+.split-custom-btn-wrapper {
+  overflow: hidden;
+}
+
+.tableCustomRow:hover {
+  background-color: "lightgray";
+}
+
+.disablecheckbox {
+  opacity: 0.5;
+}
+
+.MuiTabs-fixed > span {
+  height: 100% !important;
+  color: #fff;
+  border-radius: 1rem;
+}
+
+.MuiTab-textColorPrimary.Mui-selected {
+  color: #ffffff !important;
+  z-index: 10;
+}
+
+.react-swipeable-view-container > div {
+  overflow: hidden !important;
+}
+
+.flex1 {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+/* .inbox-table .e-grid .e-gridheader {
+  border-radius: 30px 0 30px 0 !important;
+  border-top: none;
+} */
+
+.e-splitter.e-splitter-horizontal,
+.e-splitter.e-splitter-vertical {
+  border: none;
+}
+
+.split-btn-custom span {
+  padding: 4px 11px !important;
+  padding-right: 18px !important;
+}
+.icons {
+  visibility: hidden !important;
+}
+
+.action_icons {
+  cursor: pointer;
+  width: 0.65em;
+}
+
+.action_icons_ {
+  cursor: pointer;
+  width: 0.85em;
+}
+
+.e-row.e-altrow {
+  position: relative !important;
+}
+
+#line {
+  position: absolute;
+  background-color: red;
+  width: 3.5px !important;
+  height: 97.5% !important;
+  top: 1.5%;
+  left: 0%;
+}
+
+.MuiCheckbox-root {
+  fill: currentColor;
+  width: 0px !important;
+  display: inline-block;
+  user-select: none;
+}
+
+.action_icons .MuiSvgIcon-root {
+  width: 17px !important;
+  height: -3px;
+}
+.checkbox_action_icons .MuiSvgIcon-root {
+  width: 19px !important;
+  height: -3px;
+  color: #8c8c8c;
+}
+.checkbox_action_icons_ .MuiSvgIcon-root {
+  width: 24px !important;
+  height: 24px !important;
+  color: #8c8c8c;
+}
+
+#checkbox {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  margin-left: -14px;
+  margin-right: 3px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.e-grid.e-gridhover
+  tr[role="row"]:not(.e-editedrow):hover
+  .e-rowcell:not(.e-cellselectionbackground):not(.e-active):not(
+    .e-updatedtd
+  ):not(.e-indentcell)
+  #checkbox {
+  visibility: initial !important;
+}
+
+.e-row {
+  position: relative !important;
+}
+
+.e-checkbox-wrapper .e-frame,
+.e-css.e-checkbox-wrapper .e-frame {
+  height: 16px !important;
+  width: 16px !important;
+}
+
+#dialog_forward .MuiDialogContent-dividers {
+  margin-top: -2rem !important;
+}
+
+#dialog_forward .MuiSvgIcon-colorPrimary {
+  height: 2rem !important;
+  width: 2rem !important;
+}
+
+#filter_button {
+  margin-left: auto;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.inbox_custom_table {
+  min-width: 700px;
+  height: 100%;
+}
+.hrm_table {
+  min-width: 200px;
+}
+
+/* .MuiTableBody-root {
+  display: flex !important;
+  flex-direction: column;
+  height: 80vh;
+  overflow: auto;
+} */
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #787474;
+}
+
+/* INBOX TABLE CSS */
+
+.InboxCon {
+  position: relative;
+  display: grid;
+  grid-template-columns: 3rem 2fr 5fr 5fr 2fr 8rem 6rem;
+  gap: 0.7rem;
+  align-items: center;
+}
+
+.InboxCon.body {
+  padding: 0.7rem 0rem;
+}
+
+.MuiTableContainer-root {
+  /* width: 54% !important; */
+  overflow-x: auto;
+}
+
+.InboxCon > .checkbox {
+  text-align: center;
+}
+
+.InboxCon.body:hover {
+  background-color: #6fe1e124;
+}
+
+.strips {
+  position: absolute;
+  width: 4px;
+  height: 98%;
+  top: 0%;
+}
+
+.InboxHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 0 !important;
+}
+
+.InboxHeader .headChild1 > span {
+  margin-left: 1rem;
+}
+
+.InboxHeader .headChild1 {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+  gap: 0.5rem;
+}
+
+.InboxHeader .headChild1 > :first-child {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.InboxIconsPinned {
+  display: flex;
+  flex-grow: 0.5;
+  justify-content: space-evenly;
+}
+
+.InboxIcons {
+  display: flex;
+  flex-grow: 0.5;
+  justify-content: space-evenly;
+  visibility: hidden;
+}
+
+.InboxCon:hover .InboxIcons {
+  visibility: visible;
+}
+
+.InboxBtn {
+  padding: 0.33rem;
+}
+
+.InboxBtn > span > svg {
+  font-size: 1rem;
+}
+
+.inbox_header_icons {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+.inbox_row {
+  border: "1px solid #8080805c";
+  border-width: "1px 0px 0px 0px";
+  position: "relative";
+}
+.hrn_row {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  gap: 1rem;
+  padding: 0.6rem;
+}
+.active {
+  background-color: #6fe1e124;
+}
+.nof_table_row {
+  display: "grid";
+  grid-template-columns: "1fr 1fr";
+  grid-gap: 1rem;
+  padding: 0.6rem;
+}
+.dialog_title > h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons {
+  visibility: hidden !important;
+}
+
+.action_icons {
+  cursor: pointer;
+  width: 0.65em;
+}
+
+.action_icons_ {
+  cursor: pointer;
+  width: 0.85em;
+}
+
+.e-row.e-altrow {
+  position: relative !important;
+}
+
+#line {
+  position: absolute;
+  background-color: red;
+  width: 3.5px !important;
+  height: 97.5% !important;
+  top: 1.5%;
+  left: 0%;
+}
+
+.MuiCheckbox-root {
+  fill: currentColor;
+  width: 0px !important;
+  display: inline-block;
+  user-select: none;
+}
+
+.action_icons .MuiSvgIcon-root {
+  width: 17px !important;
+  height: -3px;
+}
+.checkbox_action_icons .MuiSvgIcon-root {
+  width: 19px !important;
+  height: -3px;
+  color: #8c8c8c;
+}
+.checkbox_action_icons_ .MuiSvgIcon-root {
+  width: 24px !important;
+  height: 24px !important;
+  color: #8c8c8c;
+}
+
+#checkbox {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  margin-left: -14px;
+  margin-right: 3px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+#dialog_forward .MuiDialogContent-dividers {
+  margin-top: -2rem !important;
+}
+
+#dialog_forward .MuiSvgIcon-colorPrimary {
+  height: 2rem !important;
+  width: 2rem !important;
+}
+
+/* .e-check{
+  color: white !important;
+background-color: red !important;
+} */
+
+.rowTemplate {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  top: 1%;
+  z-index: 2;
+  left: 10%;
+  width: 87%;
+}
+
+#filter_button {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  top: 1%;
+  z-index: 2;
+  left: 88%;
+}
+
+/* REMARKS TABLE */
+.remarks_table_head div {
+  text-align: center;
+}
+
+.remarks_table_row {
+  display: "grid";
+  grid-template-columns: "1fr 1fr 2fr";
+  grid-gap: 1rem;
+  padding: 0.6rem;
+}
+
+.inbox_view_btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inbox_view_btn > div > button {
+  padding: 5px;
+}
+
+/*----------------------------------------View two table---------------------------------------*/
+.nothing_table {
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+}
+.nothing_table > div:first-child {
+  opacity: 0.7;
+  text-align: center;
+}
+.nothing_table.head {
+  padding: 0.5rem;
+  background-color: #b1b1b15c;
+}
+.nothing_table.body {
+  padding: 0.7rem 0.5rem;
+  border-bottom: 1px solid #8080805c;
+  padding: 1rem 0;
+}
+.nothing_table.body:hover {
+  background: #6fe1e124;
+}
+/*----------------------------------------View two table---------------------------------------*/
+
+/*----------------------------------------Cover letter dialog---------------------------------------*/
+.cover_table {
+  font-weight: "600";
+  display: grid !important;
+  grid-template-columns: 3rem 3rem 1fr;
+  align-items: center;
+}
+.cover_table.head {
+  padding: 0rem 0.6rem;
+  background: #b1b1b15c;
+}
+.cover_table.body {
+  padding: 0.6rem;
+  border-bottom: 1px solid #8080805c;
+}
+.cover_table.body:hover {
+  background: #6fe1e124;
+}
+/*----------------------------------------Cover letter dialog---------------------------------------*/
+
+/*----------------------------------------Yello remark note dialog---------------------------------------*/
+
+/* REMARKS TABLE */
+.remarks_table_head div {
+  text-align: center;
+}
+
+.remarks_table_row {
+  display: "grid";
+  grid-template-columns: "1fr 1fr 2fr";
+  grid-gap: 1rem;
+  padding: 0.6rem;
+}
+
+/* YELLOW NOTES TABLE */
+.yellow_note_table_head {
+  font-weight: 600;
+  display: grid;
+  padding: 0.4rem;
+  border-bottom: 1px solid rgb(199, 199, 199);
+  grid-template-columns: 1fr 2fr 4fr;
+  gap: 1rem;
+  text-align: center;
+}
+
+.ylowNote_table_row {
+  padding: 0.6rem;
+  gap: 0.6rem;
+}
+
+.ylowNote_info_3 {
+  display: grid;
+  grid-template-columns: 1fr 1rem;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.ylowNote_info_3 button {
+  padding: 0;
+  visibility: hidden;
+}
+
+.ylowNote_table_row:hover .ylowNote_info_3 button {
+  visibility: visible;
+}
+
+#ylow-note .MuiDialog-paperWidthSm {
+  width: 54%;
+}
+
+/* YELLOW NOTES EYES ONLY ROLE TABLE */
+
+.eyes_only_table_head {
+  font-weight: 600;
+  display: grid;
+  padding: 0.4rem;
+  border-bottom: 1px solid rgb(199, 199, 199);
+  grid-template-columns: 3rem 2fr 2fr 2fr;
+  gap: 1rem;
+  text-align: center;
+}
+
+.eyes_only_container {
+  margin: 0.6rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.eyes_only_table_row {
+  display: grid;
+  grid-template-columns: 3rem 2fr 2fr 2fr;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 0rem 0.4rem;
+  align-items: center;
+}
+
+.close-file-dialog {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.close-dialog-or {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-dialog-or > span:nth-child(1) {
+  position: absolute;
+  width: 108%;
+  height: 1px;
+  background-color: #0000004a;
+}
+
+.close-dialog-or > span:nth-child(2) {
+  position: relative;
+  background: rgb(5, 100, 200);
+  color: white;
+  border-radius: 50%;
+  padding: 0.3rem;
+}
+
+/*----------------------------------------Yello remark note dialog---------------------------------------*/
+
+.inbox-tabsList {
+  margin: 0px;
+  padding: 0px;
+}
+
+.bm-icons-badge {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  transform: translate(50%, -50%);
+  color: white;
+  border-radius: 66%;
+  font-size: 13px;
+  background: red;
+  width: 50%;
+}
+
+.text-overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 1000px) {
+  .inbox_view_toggle_btn {
+    display: none;
+  }
+}
+
+/*-----------------------------mobbile view----------------------------------*/
+/*----------------------------------------Housing Bank Splitview ------------------------------------------------- */
+
+.fileInfoAccordian {
+  background-color: rgb(53, 76, 100);
+  border-radius: 6px 6px 0px 0px;
+}
+
+.fileInfoAccordian .MuiAccordionSummary-content {
+  margin: 0px !important;
+}
+
+.fileInfoAccordian {
+  min-height: auto !important;
+}
+
+.fileInfoCon .MuiGrid-item {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  align-items: center;
+  border-bottom: 1px solid #bdbdbd;
+  padding: 8px 11px;
+}
+
+.fileInfoIcon {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.fileAccordian {
+  margin: 0 !important;
+  min-width: 355px;
+}
+
+.fileAccordian .MuiAccordionDetails-root {
+  padding: 0;
+  border: 1px solid #80808070;
+  display: block;
+}
+
+.nof_table_head {
+  display: grid;
+  grid-template-columns: 1rem 1fr;
+  padding: 0.8rem;
+  background-color: #80808059;
+  gap: 1rem;
+  font-weight: bold;
+}
+
+.enco_table_head {
+  display: grid;
+  grid-template-columns: 1rem 1fr 3rem;
+  padding: 0.8rem;
+  background-color: #80808059;
+  grid-gap: 1rem;
+  gap: 1rem;
+  font-weight: bold;
+  align-items: center;
+}
+
+.nof_table_head > div:nth-child(3),
+.nof_table_head > div:nth-child(4) {
+  text-align: center;
+}
+
+.nof_table_row {
+  display: grid;
+  grid-template-columns: 1rem 1fr;
+  padding: 0.8rem;
+  grid-gap: 1rem;
+  gap: 1rem;
+  align-items: center;
+  border-top: 1px solid #8080807a;
+}
+
+.enco_table_row {
+  display: grid;
+  grid-template-columns: 1rem 1fr 3rem;
+  padding: 0 0.8rem;
+  grid-gap: 1rem;
+  gap: 1rem;
+  align-items: center;
+  border-top: 1px solid #8080807a;
+}
+
+.nof_table_row > div:nth-child(2),
+.enco_table_row > div:nth-child(4) {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.nof_table_row > div:nth-child(4),
+.enco_table_row > div:nth-child(6) {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nof_table_row > div:nth-child(4) .MuiIconButton-root,
+.enco_table_row > div:nth-child(6) .MuiIconButton-root {
+  padding: 0;
+  font-size: 1rem;
+}
+
+.encolureActionBtn {
+  padding: 0.8rem;
+  display: flex;
+  gap: 9px;
+}
+
+.fileActionCon {
+  flex-grow: 1;
+  padding: 2rem;
+  display: flex;
+  gap: 15px;
+}
+
+.splitView .e-splitter .e-split-bar.e-split-bar-horizontal {
+  border: 1px solid #80808066;
+}
+/*-----------------------------mobbile view----------------------------------*/
+.text_center {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Splitter component expand and collapse */
+
+.bar-visible .e-split-bar.e-split-bar-horizontal {
+  width: 5px !important;
+  border-radius: 3px;
+  background: #a9a9a9;
+}
+
+.bar-visible .e-splitter .e-split-bar.e-split-bar-horizontal.e-split-bar-hover,
+.bar-visible
+  .e-splitter
+  .e-split-bar.e-split-bar-horizontal.e-split-bar-active {
+  background: #a9a9a9 !important;
+}
+
+.e-splitter .e-split-bar.e-split-bar-vertical {
+  background: #a9a9a9;
+  width: 100% !important;
+  margin: 8px 0;
+}
+
+.e-splitter .e-split-bar.e-split-bar-vertical.e-split-bar-hover,
+.e-splitter .e-split-bar.e-split-bar-vertical.e-split-bar-active {
+  background: #a9a9a9;
+}
+
+#inbox_view_ylo_note .MuiBadge-anchorOriginTopRightRectangle,
+#inbox_view_remarks .MuiBadge-anchorOriginTopRightRectangle {
+  top: -10px;
+  right: -5px;
+}
+
+#noting-len-label,
+#enco-length-label {
+  top: -7px;
+  left: -4px;
+}
+
+.bold-length {
+  font-size: 1.5rem;
+  color: red;
+}
+
+#viewone-sign .MuiDialog-paperScrollPaper {
+  width: 33%;
+}
+
+.viewone-badge .MuiBadge-anchorOriginTopRightRectangular {
+  transform: scale(1) translate(100%, -100%) !important;
+}

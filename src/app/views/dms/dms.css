@@ -1,0 +1,21 @@
+.addIcon{
+    font-size: 19px; 
+    color: #ffF !important;
+    margin-top:15px;
+    float:right;
+    background-color:rgb(230 81 71) !important;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius:50% !important ;
+    text-align: center !important;
+}
+
+.flex1{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.input{
+    height: 15px !important;
+}

@@ -1,0 +1,139 @@
+.audit-seaech-table-mb {
+  width: 100%;
+  position: relative;
+}
+
+.audit-seaech-table-mb
+  .MuiTable-root
+  .MuiTableRow-root:hover
+  .table-action-btn
+  > button {
+  display: inline-flex;
+  padding: 0;
+  padding-top: 3px;
+}
+
+.audit-search-body {
+  position: relative;
+  display: flex;
+  padding: 0.7rem 0.4rem !important;
+}
+
+.audit-search-body {
+  border: "1px solid #8080805c";
+  border-width: "1px 0px 0px 0px";
+  position: "relative";
+}
+
+.audit-search-body div:nth-child(1) {
+  width: 8%;
+  margin-left: 0.6rem;
+  width: 20%;
+}
+
+.audit-search-body div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  width: 20%;
+}
+
+.audit-search-body div:nth-child(3) {
+  width: 20%;
+}
+
+.audit-search-body div:nth-child(4) {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  width: 20%;
+  position: relative;
+}
+.audit-search-body div:nth-child(5) {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  width: 20%;
+  position: relative;
+}
+.audit-search-body div:nth-child(6) {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  width: 27%;
+  position: relative;
+}
+
+.audit-search-body div:nth-child(7) {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  width: 20%;
+  position: relative;
+}
+
+.search-table-body-p {
+  display: flex !important;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.audit_no_recode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 57vh;
+}
+.audit_no_recode span {
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.no_recore_icon {
+  font-size: 2rem;
+  color: #787474;
+}
+
+/* -------------------------------------------- AUDIT SEARCH FORM CSS  --------------------------- */
+
+.bradcrum_audit {
+  height: 2.2rem;
+}
+
+.bradcrum_audit span {
+  margin: 10px 0px 10px 0px;
+}
+
+.bradcrum_audit span .MuiSvgIcon-fontSizeSmall {
+  margin-left: 1rem;
+}
+
+.grid_spacing {
+  padding: 0.7rem 0;
+}
+
+.audit_button_search {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 0;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #787474;
+}

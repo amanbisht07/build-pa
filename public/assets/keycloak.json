@@ -1,0 +1,9 @@
+{
+  "realm": "costa_sample",
+  "auth-server-url": "http://11.0.0.118:8180/auth/",
+  "ssl-required": "none",
+  "resource": "costa_cloud",
+  "public-client": true,
+  "confidential-port": 0,
+  "enable-cors": true
+}

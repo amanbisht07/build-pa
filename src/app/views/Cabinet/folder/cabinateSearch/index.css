@@ -1,0 +1,76 @@
+/* Outlook filter */
+
+.GenOutlookCon {
+    display: flex;
+    border: 1px solid #80808026;
+    width: 30%;
+    box-shadow: rgb(0 0 0 / 13%) 0px 1.6px 3.6px 0px,
+      rgb(0 0 0 / 11%) 0px 0.3px 0.9px 0px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 5px;
+  }
+  
+  .GenSearchCon {
+    display: flex;
+    height: 100%;
+    flex-grow: 1;
+    align-items: center;
+  }
+  
+  .GenSearchCon .GenSearchInput {
+    flex-grow: 1;
+  }
+  
+  .GenSearchInput > :first-child {
+    width: 100%;
+  }
+  
+  .GenOutlookCon .GenSearchBtn {
+    background: #0000000a;
+    border-radius: 0%;
+    padding: 0.4rem;
+  }
+  
+  .GenOutlookCon .GenSearchBtn:hover {
+    background: #05050514;
+  }
+  
+  .GenSearchCon .GenSearchClose {
+    padding: 0.4rem;
+    border-radius: 0%;
+  }
+  
+  .GenSearchCon .GenFakeSearch {
+    padding: 0.4rem;
+    border-radius: 0%;
+  }
+  
+  .GenSearchCon .GenSearchClose:hover {
+    background: #05050514;
+  }
+  
+  .GenFilterOption{
+    margin-right: 0 !important;
+  }
+  
+  .GenFilterOption .MuiOutlinedInput-notchedOutline {
+    border: none;
+  }
+  
+  .GenFilterOption .MuiSelect-outlined.MuiSelect-outlined {
+    border-radius: 0%;
+  }
+  
+  .GenFilterSelectInp .MuiSelect-select.MuiSelect-select {
+    background: transparent;
+  }
+  
+  .GenFilterSelectInp .MuiOutlinedInput-notchedOutline {
+    border: none;
+  }
+  
+  .GenFilterDateInp .MuiOutlinedInput-notchedOutline {
+    border: none;
+  }
+  
+  

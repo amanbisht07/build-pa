@@ -1,0 +1,8 @@
+.infoCon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoCon span{
+    font-size: 1rem;
+}

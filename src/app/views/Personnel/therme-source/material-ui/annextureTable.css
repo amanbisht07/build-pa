@@ -1,0 +1,91 @@
+#annexureTableRows {
+  /* cursor: default !important; */
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+
+#annexureTableRows .row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#annexureTableRows .fileName {
+  width: 20vw;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  white-space: initial;
+}
+
+#annexureTableRows .row1 svg {
+  visibility: hidden;
+  font-size: 1.3rem !important;
+}
+
+#annexureTableRows:hover .row1 svg {
+  visibility: initial;
+  font-size: 1.3rem !important;
+}
+
+#annexureTableRows .row1 .editIcon {
+  margin-right: 1rem;
+}
+
+/* Annexure Custom Table */
+
+.AnnexureRow {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 3rem 1fr 8rem 5rem;
+  align-items: center;
+}
+.annexure_pa_row {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 3rem 1fr 8rem;
+  align-items: center;
+}
+.AnnexureRow.head,
+.annexure_pa_row.head {
+  padding: 0.4rem 0rem;
+  background: #b1b1b15c;
+}
+.AnnexureRow.body,
+.annexure_pa_row.body {
+  padding: 0.6rem 0rem;
+}
+.AnnexureInfo1 {
+  text-align: center;
+  opacity: 0.7;
+}
+
+.AnnexureIcons {
+  width: 22%;
+  visibility: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+.AnnexureIcons > button {
+  padding: 5px;
+}
+.AnnexureIcons > button > span > svg {
+  font-size: 1.1rem;
+}
+
+.AnnexureRow:hover .annexure_icon .AnnexureIcons {
+  visibility: visible;
+}
+.annexure_pa_row.body:hover,
+.AnnexureRow.body:hover {
+  background: #6fe1e124;
+}
+.annexure_icon {
+  margin: auto;
+}
+
+.active {
+  background-color: #6fe1e124;
+}

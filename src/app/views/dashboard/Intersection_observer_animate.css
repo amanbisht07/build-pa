@@ -1,0 +1,32 @@
+.aos_animate_top{
+    transition: all 1.4s;
+    opacity: 0;
+    transform: translateY(-73%);
+}
+
+.aos_animate_top.show{
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.aos_animate_left{
+    transition: all 1.2s;
+    opacity: 0;
+    transform: translateX(-72%);
+}
+
+.aos_animate_left.show{
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.aos_animate_right{
+    transition: all 1.4s;
+    opacity: 0;
+    transform: translateX(72%);
+}
+
+.aos_animate_right.show{
+    opacity: 1;
+    transform: translateX(0%);
+}

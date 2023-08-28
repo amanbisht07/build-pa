@@ -1,0 +1,85 @@
+/* .MuiSelect-outlined.MuiSelect-outlined {
+  padding: 6px;
+} */
+
+.ori_formcontrol
+  select.MuiSelect-root.MuiSelect-select.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputMarginDense.MuiOutlinedInput-inputMarginDense {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: none;
+  padding-right: 36px;
+  padding-left: 12px;
+}
+
+.card_div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 12rem;
+  perspective: 500px;
+  cursor: pointer;
+}
+
+.content_div {
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card_div:hover .content_div {
+  transform: rotateY(180deg);
+  transition: transform 0.5s;
+}
+
+.front,
+.back {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.front {
+  display: flex;
+}
+
+.tree_img {
+  display: flex;
+  flex-direction: column;
+}
+
+.counter_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.tick {
+  font-size: x-large;
+  line-height: 1.7 !important;
+}
+
+.counter_div_span {
+  display: flex;
+}
+
+.counter_div_span span {
+  font-family: ui-sans-serif;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.box_card {
+  display: flex;
+}
+
+.tick span[data-view] {
+  display: inline-block;
+  margin: 4px 2px;
+}
+

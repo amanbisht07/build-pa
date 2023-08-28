@@ -1,0 +1,595 @@
+.MuiDataGrid-root {
+  border-radius: 0 0 15px 15px !important;
+  border: none !important;
+}
+
+.fileViewtable > div > .MuiToolbar-gutters {
+  padding: 0px !important;
+}
+
+.user_history_card > div {
+  padding: 0;
+}
+
+.user_history_card > div > ul {
+  padding: 6px 0;
+}
+
+.user_history_card > div > ul > li:before {
+  flex: 0;
+  content: null;
+}
+
+.loading-shading-mui {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.loading-icon-mui {
+  position: absolute;
+  font-size: 20px;
+  top: calc(50% - 10px);
+  left: calc(50% - 10px);
+}
+
+.react-tabs {
+  height: 100%;
+}
+
+.react-tabs__tab {
+  background-color: gray !important;
+  color: whitesmoke;
+}
+
+.react-tabs__tab--selected {
+  background-color: whitesmoke !important;
+  color: black;
+}
+.react-tabs__tab-panel--selected {
+  height: 90%;
+}
+
+/* For History dialog */
+.personal-application-history .MuiDialogContent-dividers {
+  padding: 16px 0px !important;
+}
+
+.personal-application-history .MuiTimeline-root {
+  padding: 6px 0 !important;
+}
+
+@media (max-width: 450px) {
+  .personnel-btn-groups {
+    flex-direction: column;
+    flex-basis: auto;
+  }
+
+  .personnel-btn-groups > button {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .personnel-btn-groups {
+    justify-content: center;
+  }
+}
+
+.loading-quick-sign-in {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0 0 0 / 40%);
+  z-index: 11;
+}
+
+.fileUploder {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0 0 0 / 40%);
+  z-index: 11;
+}
+
+@keyframes kreep {
+  0% {
+    -webkit-transform: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9);
+  }
+
+  50% {
+    -webkit-transform: scale(0.9, 1.1) translateY(-0.5rem);
+  }
+
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.button-glow {
+  /* display: inline-block; */
+  /* animation: kreep 0.7s ease 2s infinite alternate; */
+}
+
+.button-glow:hover {
+  animation: none;
+}
+
+/* for editor tab */
+.customDiv #documenteditor_container_body {
+  height: 100vh;
+}
+
+.mt-5 {
+  margin-top: 1px !important;
+}
+
+.hide {
+  list-style: none;
+  padding: 10px 0;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  cursor: pointer;
+  color: #f9f9f9;
+  background-color: rgb(204, 204, 204);
+  transition: background-color 0.4s ease-in-out;
+  text-transform: uppercase;
+  border-radius: 0 8px 8px 0;
+  font-family: "UnBatang";
+  font-size: 12px;
+  font-weight: 400;
+  /* text-shadow: 1px 1px 2px #000000; */
+  letter-spacing: 0.2em;
+}
+
+.hide1 {
+  list-style: none;
+  padding: 10px 0;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  cursor: pointer;
+  color: #f9f9f9;
+  background-color: hsl(39, 100%, 63%);
+  transition: background-color 0.4s ease-in-out;
+  text-transform: uppercase;
+  border-radius: 0 8px 8px 0;
+  font-family: "UnBatang";
+  font-size: 12px;
+  font-weight: bolder;
+  letter-spacing: 0.2em;
+  /* text-shadow: 1px 1px 2px #000000; */
+}
+
+.div_wrap {
+  position: relative !important;
+}
+
+.icons-button {
+  position: absolute !important;
+  right: -0.6rem !important;
+  top: -0.6rem;
+  z-index: 1;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 3px;
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); */
+  transition: color 0.2s ease, background-color 0.2s ease, transform 0.3s ease;
+}
+
+.icons-button:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border: solid 2px;
+  transform: scale(0.8);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.icons-button:hover:after {
+  transform: scale(1);
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.19), 6px 0 6px rgba(0, 0, 0, 0.23);
+}
+
+.icons-button:hover {
+  background-color: transparent;
+  transform: rotate(90deg);
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.PaIconCon {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 3px;
+
+  transition: color 0.2s ease, background-color 0.2s ease, transform 0.3s ease;
+}
+
+.PaIconCon:hover:after {
+  transform: scale(1);
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.19), 6px 0 6px rgba(0, 0, 0, 0.23);
+}
+
+.PaIconCon:hover {
+  background-color: transparent;
+  transform: rotate(90deg);
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.container_Personal {
+  padding: 0.5rem;
+}
+
+.pa-table-items {
+  /* width: 85vw; */
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.pa-table-row {
+  display: flex;
+  flex-direction: row;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 8px 21px;
+}
+
+.pa-table-items1 {
+  min-height: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-size: small;
+}
+
+.pa-table-items2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: small;
+}
+
+.pa-table-items2 .subject {
+  max-width: 80%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  white-space: initial;
+}
+
+#paTableIcons svg {
+  font-size: 1.2rem;
+}
+
+/* PA Custom Table Material UI */
+
+.paHeader {
+  padding: 1rem;
+}
+
+.draft_table_head {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.PaRow {
+  display: grid;
+  grid-template-columns: 3rem 1fr 2fr 1fr 7rem 4rem;
+  padding: 0.5rem 0;
+  gap: 1rem;
+  align-items: center;
+}
+
+.PaRow.body {
+  padding: 0.8rem 0;
+}
+
+.PaRow.body:hover,
+.PaFileRow.body:hover {
+  background-color: #6fe1e124;
+}
+.draft_table_head {
+  font-weight: bolder;
+}
+
+.paInfo1 {
+  text-align: center;
+  opacity: 0.7;
+}
+
+.PaRow > .paInfo5 > .status {
+  padding: 2px 14px;
+  font-size: 0.7rem;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.paIcons {
+  visibility: hidden;
+}
+
+.paIcons > button {
+  padding: 5px;
+}
+
+.paIcons > button > span > svg {
+  font-size: 1.4rem;
+}
+
+.PaRow:hover .paIcons {
+  visibility: visible;
+}
+
+/* Pa File Custom Table Material Ui */
+
+.PaFileRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 3rem 2fr 1fr 1fr 3rem;
+  gap: 1rem;
+}
+.PaFileRow.head {
+  padding: 0.45rem 0;
+}
+.PaFileRow.body {
+  padding: 0.8rem 0;
+}
+
+.PaFileInfo1 {
+  text-align: center;
+  opacity: 0.7;
+}
+
+/* File View Custom Material Ui Table */
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 4px;
+}
+
+.FileViewCon {
+  height: 65vh;
+}
+
+.FileViewRow {
+  padding: 0.4rem 0rem;
+  gap: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #8080805c;
+}
+
+.FileViewInfo1 {
+  margin-left: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.FileViewInfo1 > div {
+  font-weight: bolder;
+}
+
+.FileViewInfo2 {
+  margin-right: 0.7rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.FileViewRow:hover .file_icon_btn {
+  opacity: 1;
+}
+.file_icon_btn {
+  display: flex;
+  justify-content: flex-end;
+  opacity: 0;
+}
+.file_icon_btn > button {
+  padding: 0.3rem;
+}
+
+.file_icon_btn > button > span > svg {
+  font-size: 1.2rem;
+}
+
+.send_dialog > h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.submitButton:hover {
+  background-color: rgb(5 100 200) !important ;
+  color: #f9f9f9;
+}
+.sendIcon:hover {
+  background-color: rgb(5 100 200) !important ;
+  color: #f9f9f9;
+}
+.saveButton:hover {
+  background-color: rgb(5 100 200) !important ;
+  color: #f9f9f9;
+}
+.finishButton:hover {
+  background-color: rgb(5 100 200) !important ;
+  color: #f9f9f9;
+}
+.updateButton:hover {
+  background-color: rgb(5 100 200) !important ;
+  color: #f9f9f9;
+}
+.cancelButton:hover {
+  background-color: rgb(201, 78, 71) !important ;
+  color: #f9f9f9;
+  border: rgb(196, 65, 58);
+}
+.okButton:hover {
+  background-color: rgb(5 100 200) !important ;
+  color: #f9f9f9;
+}
+.signButton:hover {
+  background-color: rgb(5 100 200) !important ;
+  color: #f9f9f9;
+}
+
+.resetButton:hover {
+  background-color: rgb(201, 78, 71) !important ;
+  color: #f9f9f9;
+  border: rgb(196, 65, 58);
+}
+.MuiButton-outlinedPrimary:hover {
+  /* border: 1px solid rgb(5 100 200); */
+  background-color: rgb(5 100 200);
+  color: white;
+}
+
+/* Outlook filter */
+
+.paOutlookCon {
+  display: flex;
+  border: 1px solid #80808026;
+  width: 30%;
+  box-shadow: rgb(0 0 0 / 13%) 0px 1.6px 3.6px 0px,
+    rgb(0 0 0 / 11%) 0px 0.3px 0.9px 0px;
+  transition: all 0.5s ease-in-out;
+}
+
+.PaHeadTop {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  align-items: center;
+}
+
+.PaHeadTop > div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.PaSearchCon {
+  display: flex;
+  height: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.PaSearchCon .PaSearchInput {
+  flex-grow: 1;
+}
+
+.PaSearchInput > :first-child {
+  width: 100%;
+}
+
+.paOutlookCon .paSearchBtn {
+  background: #0000000a;
+  border-radius: 0%;
+  padding: 0.4rem;
+}
+
+.paOutlookCon .paSearchBtn:hover {
+  background: #05050514;
+}
+
+.PaSearchCon .PaSearchClose {
+  padding: 0.4rem;
+  border-radius: 0%;
+}
+
+.PaSearchCon .PaFakeSearch {
+  padding: 0.4rem;
+  border-radius: 0%;
+}
+
+.PaSearchCon .PaSearchClose:hover {
+  background: #05050514;
+}
+
+.PaFilterOption .MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+
+.PaFilterOption .MuiSelect-outlined.MuiSelect-outlined {
+  border-radius: 0%;
+}
+
+.PaFilterSelectInp .MuiSelect-select.MuiSelect-select {
+  background: transparent;
+}
+
+.PaFilterSelectInp .MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+
+.PaFilterDateInp .MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+.active {
+  background-color: #6fe1e124;
+}
+#pFile_edit_button,
+#draftPA_history_btn,
+#draftPA_edit_btn {
+  background-color: #0564c8;
+  color: #fff;
+  padding: 6px 7px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+.PaFileRow #pFile_edit_button {
+  visibility: hidden;
+}
+
+.PaFileRow:hover #pFile_edit_button {
+  visibility: visible;
+}
+
+.text-overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 750px) {
+  .hideText {
+    display: none;
+  }
+}
+
+#pa-sign .MuiDialog-paperScrollPaper{
+  width: 33%;
+}

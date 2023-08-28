@@ -1,0 +1,295 @@
+.loading-shading-mui {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.loading-icon-mui {
+  position: absolute;
+  font-size: 20px;
+  top: calc(50% - 10px);
+  left: calc(50% - 10px);
+}
+
+.inbox-table {
+  width: 100%;
+}
+
+.cabinate_container .e-grid .e-gridheader {
+  border-radius: 0;
+}
+
+.e-grid .e-gridheader {
+  border-radius: 15px 15px 0 0;
+}
+
+.inbox-table .MuiTable-root .MuiTableBody-root {
+  transition: all 0.3s ease;
+}
+
+.inbox-table .MuiTable-root .MuiTableHead-root .MuiTableRow-head:last-child {
+  transition: all 0.3s ease-in-out;
+}
+
+/* .inbox-table .MuiTable-root .MuiTableHead-root .MuiTableRow-head:last-child{
+    transform: translate(0px, -100%);
+    z-index: 0;
+    visibility: collapse;
+} */
+
+.inbox-table
+  .MuiTable-root
+  .MuiTableHead-root:hover
+  .MuiTableRow-head:last-child {
+  transform: translate(0px, 0px);
+  z-index: 1;
+  visibility: visible;
+}
+
+.inbox-table .MuiTable-root .MuiTableRow-root:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.inbox-table {
+  position: relative;
+}
+
+.table-action-btn {
+  position: absolute;
+  right: 248px;
+  padding: 0px 5px;
+  border: none;
+  padding-top: 2px;
+  border-bottom: none !important;
+}
+
+.inbox-table .MuiTable-root .MuiTableRow-root:hover .table-action-btn > button {
+  display: inline-flex;
+  padding: 3px;
+  margin-top: 0px !important;
+}
+
+.table-action-btn span {
+  height: 1.5em;
+}
+
+/* material ui table changes  start*/
+
+.inbox-table .MuiDataGrid-viewport {
+  /* transform: translate(24.4%, 0px); */
+  /* position: relative;     */
+  overflow: visible;
+}
+
+#enclosureTextField div {
+  max-width: 100px !important;
+}
+
+.inbox-table .MuiDataGrid-cell:focus {
+  outline: none !important;
+}
+
+.inbox-table .MuiDataGrid-row {
+  cursor: pointer;
+}
+
+.inbox-table .MuiTable-root .MuiTableBody-root {
+  transition: all 0.3s ease;
+}
+
+.inbox-table .MuiDataGrid-windowContainer *:not(.MuiDataGrid-cellCheckbox *) {
+  height: auto !important;
+  /* max-height: 500px !important; */
+}
+
+.inbox-table .MuiDataGrid-root .MuiDataGrid-cell {
+  white-space: initial;
+}
+.MuiTable-root {
+  border: none !important;
+}
+
+/* .inbox-table .MuiDataGrid-columnHeaderWrapper .MuiDataGrid-columnHeader:last-child{
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+} */
+
+/* .inbox-table .MuiDataGrid-columnHeaderWrapper .MuiDataGrid-columnHeader:last-child{
+    transform: translate(0px, -100%);
+    z-index: 0;
+    visibility: collapse;
+} */
+
+/* .inbox-table .MuiDataGrid-columnHeaderWrapper:hover .MuiDataGrid-columnHeader:last-child{
+    transform: translate(0px, 0px);
+    z-index: 1;
+    visibility: visible;
+} */
+
+.inbox-table .MuiDataGrid-row:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.inbox-table .MuiDataGrid-row:hover .table-action-btn > button {
+  display: inline-flex;
+  padding: 3px;
+  margin-top: 0px !important;
+}
+
+/* material ui table changes  end*/
+
+.send-button-Wrapper {
+  /* position: absolute;
+    bottom: 15px;
+    left: 15px; */
+  margin-left: 16px;
+  margin-bottom: 16px;
+}
+
+.send-button-Wrapper .MuiIcon-root {
+  display: flex;
+  justify-content: inherit;
+  align-items: inherit;
+}
+
+::-webkit-scrollbar {
+  height: 3px;
+}
+
+/* / Track / */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white;
+  border-radius: 10px;
+}
+
+/* Handle  */
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 10px;
+}
+
+/* Handle on hover  */
+::-webkit-scrollbar-thumb:hover {
+  background: #787474;
+}
+
+@media (max-width: 768px) {
+  #webviewer-1 {
+    height: inherit !important;
+  }
+}
+
+.split-btn-custom {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+  margin-left: -30px;
+  border-radius: 30px;
+  padding: 0;
+  width: 65px;
+}
+
+.split-btn-custom:focus {
+  color: #fff;
+  margin-left: -22px;
+  transition: all 0.3 ease-in-out;
+  box-shadow: rgb(14 30 37 / 62%) 0px 2px 4px 0px,
+    rgb(14 30 37 / 32%) 0px 2px 16px 0px;
+}
+
+.split-btn-custom span {
+  padding: 4px 11px;
+  padding-right: 18px;
+}
+
+.split-custom-btn-wrapper {
+  overflow: hidden;
+}
+
+.tableCustomRow:hover {
+  background-color: "lightgray";
+}
+
+/* For Editor height */
+.customDiv #documenteditor_container_body {
+  height: calc(100vh - 120px);
+}
+
+.disablecheckbox {
+  opacity: 0.5;
+}
+
+.MuiTabs-fixed > span {
+  height: 100% !important;
+  color: #fff;
+  border-radius: 1rem;
+}
+
+.MuiTab-textColorPrimary.Mui-selected {
+  color: #ffffff;
+  z-index: 10;
+}
+
+.react-swipeable-view-container > div {
+  overflow: hidden !important;
+}
+
+.flex1 {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+/* .inbox-table .e-grid .e-gridheader {
+  border-radius: 30px 0 30px 0 !important;
+  border-top: none;
+} */
+.inbox_table .e-grid .e-gridheader {
+  border-radius: 15px 15px 0 0;
+  border-top: none;
+}
+
+.inbox_table .e-grid .e-pager {
+  border-radius: 0 0 15px 15px;
+  padding-bottom: 8px;
+}
+/* .MuiPaper-root{
+    border-radius: 30px 30px 0 0;
+
+.inbox-tab .e-grid .e-gridheader {
+  border-radius: 30px 30px 0 0;
+  border-top: none;
+}
+
+.inbox-tab .e-grid .e-gridheader {
+  border-radius: 15px 15px 0 0;
+  
+}
+
+.inbox-tab .e-grid .e-pager {
+  border-radius: 0 0 15px 15px;
+  padding-bottom: 8px;
+}
+/* .MuiPaper-root{
+    border-radius: 30px 30px 0 0;
+
+  } */
+
+.inbox-tab .e-grid {
+  border-radius: 15px;
+}
+
+.e-splitter.e-splitter-horizontal,
+.e-splitter.e-splitter-vertical {
+  border: none;
+}
+
+.split-btn-custom span {
+  padding: 4px 11px;
+  padding-right: 18px;
+}
+.e-grid td.e-selectionbackground.e-active {
+  background-color: #ddd !important;
+}

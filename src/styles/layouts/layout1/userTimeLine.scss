@@ -1,0 +1,172 @@
+// Bootstrap CSS and JS brought in to double check any conflicts but not actually used.
+
+// Variables (make it your own)
+
+// Steps
+$step-count-per-row: 4;
+$step-rounded: true;
+$step-border: false;
+$step-border-thick: 2px;
+$step-border-color: #FFF;
+$step-spacing: 10px;
+$step-wh: 50px;
+$step-font-size: 20px;
+$step-color: #FFF;
+$step-past-bg: #4aa3df;
+$step-present-bg: #2ecc71;
+$step-future-bg: #95a5a6;
+
+// Bars
+$bar-height: 15px;
+$bar-past-bg: $step-past-bg;
+$bar-present-bg: #bdc3c7;
+$bar-future-bg: #ecf0f1;
+
+// Text / Links
+$text-color: #333;
+$text-font-size: 16px;
+$text-hover-color: #4aa3df;
+$text-padding: 10px; // Expanded only to prevent longer step text overlapping
+
+                        .wrapper {
+                            max-width: 1170px;
+                            margin: 0 auto;
+                        }
+
+.steps {
+// Automagical counting
+counter-reset: counter;
+
+// Reset list styles
+list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+
+// Make pretty
+margin-left: 15px;
+li {
+    margin: $step-spacing 0;
+&:before {
+ // Count number
+ content: counter(counter);
+     counter-increment: counter;
+
+ // Location
+ float: left;
+     margin-right: -$step-wh;
+
+ // Sizing
+ box-sizing: border-box;
+     display: inline-block;
+     width: $step-wh;
+     height: $step-wh;
+@if $step-rounded {
+    border-radius: 100%;
+}
+@if $step-border {
+    border: $step-border-thick solid $step-border-color;
+}
+
+// Text
+   color: $step-color;
+text-align: center;
+font-size: $step-font-size;
+line-height: $step-font-size;
+padding-top: (($step-wh - $step-font-size) / 2);
+padding-bottom: (($step-wh - $step-font-size) / 2);
+
+// Make pretty
+   background-color: $step-past-bg;
+}
+&.active {
+&:before {
+     background-color: $step-present-bg;
+ }
+}
+&.active ~ li {
+&:before {
+     background-color: $step-future-bg;
+ }
+}
+a, span {
+// Remove link styling
+text-decoration: none;
+
+// Sizing
+display: inline-block;
+    padding-left: ($step-wh + 10px);
+
+// Text
+color: $text-color;
+    font-size: $text-font-size;
+    line-height: $text-font-size;
+    padding-top: (($step-wh - $text-font-size) / 2);
+    padding-bottom: (($step-wh - $text-font-size) / 2);
+}
+a {
+&:hover, &:active, &:focus {
+                        color: $text-hover-color;
+                    }
+}
+}
+@media(min-width: 768px) {
+// Take advantage of flex awesomeness
+display: flex;
+    flex-wrap: wrap;
+    li {
+    // Sizing
+    width: calc(100% / #{$step-count-per-row});
+
+    // Location
+    position: relative;
+&:before {
+ // Location
+ float: none;
+     margin-right: 0;
+ }
+
+&:after {
+ // Display
+ content: '';
+     display: inline-block;
+
+ // Location
+ position: absolute;
+     top: ($step-wh / 2);
+     left: ($step-wh - 5px);
+     transform: translateY(-50%);
+     z-index: -1;
+
+ // Size
+ height: $bar-height;
+     width: calc(100% - #{$step-wh - 10px});
+
+ // Make pretty
+ border-radius: 5px;
+     background-color: $bar-past-bg;
+ }
+&:last-of-type {
+&:after {
+ // Hide last progress bar
+ display: none;
+ }
+}
+&.active {
+&:after {
+     background-color: $bar-present-bg;
+ }
+}
+&.active ~ li {
+&:after {
+     background-color: $bar-future-bg;
+ }
+}
+a, span {
+// Sizing
+display: block;
+    padding-left: $text-padding;
+    padding-right: $text-padding;
+}
+}
+}
+}

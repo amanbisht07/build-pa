@@ -1,0 +1,30 @@
+
+
+.MuiCardContent-root div h6{
+    color: white !important;
+    font-size: 1.1rem;
+}
+
+.e-input-group input.e-input, .e-input-group.e-control-wrapper input.e-input, .e-input-group textarea.e-input, .e-input-group.e-control-wrapper textarea.e-input {
+    border-color: rgba(0, 0, 0, 0.42);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(160,160,160);
+    text-align: center;
+}
+
+.first-counter{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.second-counter{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}

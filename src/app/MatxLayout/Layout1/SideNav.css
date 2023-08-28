@@ -1,0 +1,34 @@
+.sidenav {
+  display: initial;
+  transform: translateY(-47%) translateX(0%);
+}
+
+.showHam {
+  transform: translateY(-47%) translateX(0%) !important;
+}
+
+.sideNav-overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  z-index: 16;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .sidenav {
+    transform: translateY(-47%) translateX(-150%);
+  }
+}
+
+@media screen and (min-width:767px) {
+  .sideNav-overlay{
+    position: initial;
+  }
+}

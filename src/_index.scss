@@ -1,0 +1,363 @@
+@import "~material-icons-font/sass/variables";
+@import "~material-icons-font/sass/mixins";
+$MaterialIcons_FontPath: "~material-icons-font/fonts";
+@import "~material-icons-font/sass/main";
+@import "~material-icons-font/sass/Regular";
+
+// .darkTheme {
+//   @import "https://cdn.syncfusion.com/ej2/material-dark.css";
+// }
+// .lighTheme {
+//   @import "https://cdn.syncfusion.com/ej2/material.css";
+// }
+
+* {
+  scrollbar-color: #888 #f2f2f2;
+  scrollbar-width: thin;
+}
+
+#container_editor_pageContainer {
+  background-color: #f5f5f5 !important;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
+  // overflow: hidden;
+  overflow: auto;
+  height: auto;
+  position: relative;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  color: rgba(255, 0, 221, 0.863);
+  font-size: 18px;
+  // color: rgba(255, 162, 0, 0.842);
+}
+
+// do not give css to iframe tag as it will create some unexpected scrolling behaviour to editor
+
+// iframe {
+//   position: unset !important;
+// }
+
+.mui-table-customize .MuiDataGrid-viewport {
+  overflow: visible;
+}
+
+.mui-table-customize .MuiTable-root .MuiTableBody-root {
+  transition: all 0.3s ease;
+}
+
+.mui-table-customize
+  .MuiDataGrid-windowContainer
+  *:not(.MuiDataGrid-cellCheckbox *) {
+  height: auto !important;
+
+  // max-height: 500px !important;
+}
+
+// .super-app-theme-Approved :hover{
+//   background-color: #2ed566;
+// }
+
+.super-app-theme-Approved {
+  background-color: #cef8dc;
+}
+
+.super-app-theme-Rejected {
+  background-color: #fae9ec;
+}
+
+.super-app-theme-In-Progress {
+  background-color: #e2f1fa;
+}
+
+.super-app-theme-Return {
+  background-color: #fae9ec;
+}
+
+.super-app-theme-Return {
+  background-color: #fae9ec;
+}
+
+.MuiSelect-select.MuiSelect-select {
+  background-color: #f1f1f1;
+  border-radius: 0.5rem;
+}
+
+.darkTheme .MuiSelect-select.MuiSelect-select {
+  background-color: #565555;
+}
+
+.MuiTablePagination-toolbar > p:first-of-type {
+  display: none !important;
+}
+
+.MuiToolbar-gutter:nth-child(2) {
+  display: none !important;
+}
+
+.MuiTablePagination-root:last-child {
+  float: left !important;
+}
+
+.MuiTablePagination-spacer > .MuiTablePagination-caption {
+  display: none;
+}
+
+.mui-table-customize .MuiDataGrid-root .MuiDataGrid-cell {
+  white-space: initial;
+}
+
+.iconButton {
+  background-color: rgb(223, 81, 71) !important;
+}
+
+.iconButton:hover {
+  background-color: rgb(230, 81, 71) !important;
+  box-shadow: 2px 2px 8px #df796a;
+}
+
+.iconHover {
+  background-color: rgb(223, 81, 71) !important;
+}
+
+.iconHover:hover {
+  background-color: rgb(230, 81, 71) !important;
+  box-shadow: 2px 2px 8px #df796a;
+}
+
+.mui-table-customize .MuiDataGrid-row:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.mui-table-customize .MuiDataGrid-cell:focus,
+.mui-table-customize .MuiDataGrid-cell {
+  outline: none !important;
+}
+
+.mui-table-customize .MuiDataGrid-row {
+  cursor: pointer;
+}
+
+// .mui-table-customize .MuiDataGrid-row:hover .table-action-btn>button {
+//   display: inline-flex;
+//   padding: 3px;
+//   margin-top: 0px !important;
+// }
+
+/* material ui table changes  end*/
+
+.selected-row {
+  background-color: #3f63ac !important;
+  color: #fff;
+}
+
+.selected-row:hover {
+  background-color: #3f63ac !important;
+}
+
+.selected-row .MuiSvgIcon-colorPrimary {
+  color: #fff !important;
+}
+
+// .MuiDataGrid-columnHeader--sortable.MuiDataGrid-columnHeader[tabindex="0""]
+
+@keyframes cloudMove {
+  0% {
+    background-position: 1% 1%;
+  }
+  100% {
+    background-position: 1% 100%;
+  }
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: bottom;
+  animation-name: cloudMove;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.form-animate .form-icon {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fe9832;
+  z-index: 1;
+}
+
+.form-animate {
+  display: flex;
+  position: relative;
+  width: 61%;
+  padding: 38px 26px;
+  background: #00000033;
+  justify-content: space-between;
+  border: 1px solid #fe9832;
+  border-radius: 0.4rem;
+}
+
+.form-animate .form-border {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  top: 0%;
+  left: 50%;
+  background: #fe9832;
+  transform: translate(-50%);
+}
+
+.form-animate form {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-animate form .MuiOutlinedInput-notchedOutline {
+  border: 1px solid white !important;
+}
+
+.form-animate form input {
+  color: white;
+}
+
+// input:-webkit-autofill,
+// input:-webkit-autofill:hover,
+// input:-webkit-autofill:focus,
+// input:-webkit-autofill:active {
+//   -webkit-text-fill-color: white !important;
+//   transition: background-color 5000s ease-in-out 0s;
+// }
+
+.form-animate form h4 {
+  text-align: center;
+  font-size: 2rem;
+  color: white !important;
+}
+
+.eoffice-img-Con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 47%;
+}
+
+.eoffice-img-Con img {
+  width: 32%;
+}
+
+.eoffice-img-Con span {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.sign-in-alert {
+  position: fixed;
+  top: 2%;
+  width: 60%;
+  max-height: 15%;
+  padding: 0px 3px !important;
+  background: #00000033 !important;
+  align-items: flex-start;
+  overflow: auto;
+}
+
+.sign-in-alert .MuiAlert-message {
+  color: red;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+.sign-in-alert .MuiSvgIcon-fontSizeSmall {
+  font-size: 1.7rem;
+  color: red;
+}
+
+.sign-in-alert .MuiSvgIcon-fontSizeInherit {
+  font-size: 1.8rem;
+  color: red;
+}
+
+.login-disable-btn {
+  color: #ffffff !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .form-animate {
+    width: 86%;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .eoffice-img-Con,
+  .form-animate form {
+    width: 100%;
+  }
+
+  .form-animate .form-border {
+    display: none;
+  }
+
+  .sign-in-alert .MuiAlert-message {
+    font-size: 10px;
+  }
+
+  .sign-in-alert .MuiSvgIcon-fontSizeSmall {
+    font-size: 1.4rem;
+  }
+
+  .sign-in-alert .MuiSvgIcon-fontSizeInherit {
+    font-size: 1.4rem;
+  }
+}
+
+.inp input:-webkit-autofill,
+.inp input:-webkit-autofill:hover,
+.inp input:-webkit-autofill:focus,
+.inp input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s !important;
+  -webkit-text-fill-color: #fff !important;
+}
+
+// these classes are only for textfields in dark mode
+
+.darkTextField .MuiOutlinedInput-notchedOutline {
+  border-color: #fff !important;
+}
+
+.darkTextField .MuiFormLabel-root.Mui-focused {
+  color: #fff !important;
+}
+
+.darkTextField fieldset {
+  border-color: #fff !important;
+}
+
+.darkTextField > label:first-child {
+  color: #fff !important;
+}
+
+.app-breadCrumb a {
+  background-color: inherit !important;
+}
