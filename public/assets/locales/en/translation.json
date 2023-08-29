@@ -222,7 +222,7 @@
   "pa": "PA",
   "enter_your_rank": "ENTER YOUR RANK",
   "rank_is_required": "RANK IS REQUIRED",
-  "phone_number_must_be_10_number_long": "P.NUMBER MUST BE 10 NUMBER LONG",
+  "phone_number_must_be_10_number_long": "PHONE NUMBER MUST BE OF LENGTH IN RANGE 4 TO 15",
   "please_enter_valid_number": "PLEASE ENTER VALID NUMBER",
   "enter_your_tele": "ENTER YOUR TELE",
   "tele_is_required": "TELE IS REQUIRED",

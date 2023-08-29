@@ -136,7 +136,7 @@ function InfoForm(props) {
     tele: yup
       .string(t("enter_your_tele"))
       .required(t("tele_is_required"))
-      .min(10, t("phone_number_must_be_10_number_long"))
+      .min(4, t("phone_number_must_be_10_number_long"))
       .max(15, t("phone_number_must_be_10_number_long"))
       .matches(
         /^[+]*[(]{0,1}[0-9]{1,3}[)]{0,1}[-\s\./0-9]*$/g,

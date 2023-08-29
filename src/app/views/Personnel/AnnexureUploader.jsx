@@ -195,7 +195,7 @@ function AnnexureUploader(props) {
                   `${t("annexure_has_been_inserted_successfully")}!`
                 )
               );
-              countPages(formData, callMessageOut)
+              // countPages(formData, callMessageOut)
               setTimeout(() => {
                 props.handleUploadAnnexture(resp.data.annexure);
               });

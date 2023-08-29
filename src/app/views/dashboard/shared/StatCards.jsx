@@ -62,21 +62,21 @@ const StatCards = (props) => {
       <Grid container spacing={2} justifyContent="center" className="mt-2">
         <Grid item xs={12} md={4}>
           <Grid container spacing={2} className="Aos_animate_d1">
-            <Grid item xs={12} className="aos_animate_top">
-              <SaveTree />
-            </Grid>
             {/* <Grid item xs={12} className="aos_animate_top">
-              <Feedbackchart />
+              <SaveTree />
             </Grid> */}
+            <Grid item xs={12} className="aos_animate_top">
+              <Feedbackchart />
+            </Grid>
             <Grid item xs={12} className="aos_animate_left">
               <BarDashboard num={CardData} />
             </Grid>
             {/* <Grid item xs={12} className="aos_animate_left">
               <CardDashboard num={CardData} />
             </Grid> */}
-            <Grid item xs={12} className="aos_animate_left">
+            {/* <Grid item xs={12} className="aos_animate_left">
               <UniqueVisitor />
-            </Grid>
+            </Grid> */}
           </Grid>
         </Grid>
 
@@ -93,7 +93,7 @@ const StatCards = (props) => {
               handleLoading={handleLoading}
             />
           </div>
-          <Grid
+          {/* <Grid
             item
             xs={12}
             style={{ marginTop: "10px" }}
@@ -101,7 +101,7 @@ const StatCards = (props) => {
             <div className="aos_animate_right">
               <Feedbackchart />
             </div>
-          </Grid>
+          </Grid> */}
         </Grid>
       </Grid>
     </>
